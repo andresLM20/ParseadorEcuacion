@@ -4,7 +4,7 @@ import static junit.framework.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
 
-import junit.framework.Test;
+import org.junit.Test;
 import org.junit.Before;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

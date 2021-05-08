@@ -2,7 +2,7 @@ package org.example;
 
 import static junit.framework.Assert.assertEquals;
 
-import junit.framework.Test;
+import org.junit.Test;
 
 public class ParseadorTest {
 
