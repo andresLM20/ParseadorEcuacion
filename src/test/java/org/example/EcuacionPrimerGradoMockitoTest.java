@@ -1,11 +1,10 @@
 package org.example;
 
-import static junit.framework.Assert.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
-
-import org.junit.Test;
 import org.junit.Before;
+import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -13,10 +12,10 @@ import org.mockito.MockitoAnnotations;
 public class EcuacionPrimerGradoMockitoTest {
 
     @InjectMocks
-    private EcuacionPrimerGrado ecuacionPrimerGrado;
+    private EcuacionPrimerGrado ecuacionPrimerGrado = new EcuacionPrimerGrado();
 
     @Mock
-    private Parseador parseador;
+    private Parseador parseador = new Parseador();
 
     @Before
     public void inicializaMocks() {
